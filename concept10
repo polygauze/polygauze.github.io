@@ -9,7 +9,8 @@ the original only had effects on dust"
 "Video will start off with flag waving in background while ball slams into ground at sideways angle, waits a second and then shoots off"
 (dust)
 
-"Next, ball will zip close to ground at horizontal postion at high speeds hitting a character, sending them flying"
-(dust
+"Next, ball will zip close to ground next to moving grass in horizontal postion at high speeds hitting a character, sending character flying"
+(dust)
 
-"After this, ball will slam into spring at upward postion, bouncing, sending it flying down
+"After this, ball will slam into spring at upward postion, bouncing, sending it flying down"
+(dust)
