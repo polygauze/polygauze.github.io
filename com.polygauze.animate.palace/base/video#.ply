@@ -38,6 +38,7 @@ body {
   padding: 18px;
   width: 80%;
   border: none;
+  font-family: "Playpen Sans", sans-serif;
   text-align: left;
   outline: none;
 }
