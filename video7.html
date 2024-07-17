@@ -22,4 +22,63 @@
   Da Sequel Reanimated
   <br>also viewed <a href=https://youtu.be/OiAKS4qMhIg?si=N3Af033jACo2Ld78>here</a>
 </center>
+<br>
+
+<style>
+body {
+ background-color: #303030;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  font-family: "Playpen Sans", sans-serif;
+  text-align: left;
+  font-size: 17px
+  outline: none;
+}
+
+.active, .collapsible:hover {
+  background-color: #444;
+}
+
+.content {
+  width: 80%;
+  background-color: #202020;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<button type="button" class="collapsible">Description</button>
+<div class="content">
+  <p>This is my first animation test about Steve from Minecraft, the intent of this was to show a slapstick side to the character, similar to how a youtube animator, spicevipe, animated him.</p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
 <html>
