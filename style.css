@@ -9,6 +9,13 @@ body {
   font-size: 22px;
 }
 
+@media (max-width: 600px) {
+body {
+  background-image: url('com.polygauze.animate.palace/assets/bg_polygauze.github.io_mobile.png');
+  background-size: cover; /* This ensures the image covers the entire background */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-attachment: center; /* This makes the background image fixed in place */
+}
 
 .thumbnail {
   width: 24%;
