@@ -10,8 +10,9 @@ body {
 }
 
 @media (max-width: 600px) {
-body {
-  background-image: url('com.polygauze.animate.palace/assets/bg_polygauze.github.io_mobile.png');
+  body {
+    background-image: url('com.polygauze.animate.palace/assets/bg_polygauze.github.io_mobile.png');
+  }
 }
 
 .thumbnail {
