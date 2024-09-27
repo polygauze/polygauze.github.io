@@ -1,13 +1,17 @@
 body {
-  background-color: #303030;
+  background-image: url('com.polygauze.animate.palace/assets/bg_polygauze.github.io.png');
+  background-size: cover; /* This ensures the image covers the entire background */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-attachment: fixed; /* This makes the background image fixed in place */
   color: white;
   font-family: "Playpen Sans", sans-serif;
   font-weight: bold;
   font-size: 22px;
 }
 
+
 .thumbnail {
-  width: 28%;
+  width: 24%;
   margin: center;
 }
 a:hover {
@@ -23,7 +27,7 @@ a:hover {
 .divider {
   border: 1px solid #5c5c5c;
   margin: 1%;
-  width: 83.5%;
+  width: 70.5%;
 }
 
 @media (max-width: 600px) {
@@ -36,14 +40,14 @@ a:hover {
 
 .divider2 {
   border: 1px solid #5c5c5c;
-  margin: 1%;
-  width: 97%;
+  margin: center;
+  width: 70%;
 }
 
 .main {
   width: 20%;
   height: auto;
-  margin-left: 1%;
+  margin-left: 15%;
 }
 
 @media (max-width: 600px) {
