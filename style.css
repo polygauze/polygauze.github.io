@@ -1,1 +1,100 @@
+body {
+  background-image: url('com.polygauze.animate.palace/assets/gif_polygauze.github.io.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Playpen Sans", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
 
+@media (max-width: 600px) {
+  body {
+    background-image: url('com.polygauze.animate.palace/assets/bg_polygauze.github.io_mobile.png');
+  }
+}
+
+.thumbnail {
+  width: 24%;
+  margin: center;
+}
+a:hover {
+  color: #171717;
+}
+@media (max-width: 600px) {
+.thumbnail {
+  width: 92%;
+  margin: center;
+  }
+}
+
+.divider {
+  border: 1px solid #5c5c5c;
+  margin: 1%;
+  width: 70.5%;
+}
+
+@media (max-width: 600px) {
+.divider {
+  border: 1px solid #5c5c5c;
+  margin: 1%;
+  width: 20%;
+  }
+}
+
+.divider2 {
+  border: 1px solid #5c5c5c;
+  margin: center;
+  width: 70%;
+}
+
+.main {
+  width: 20%;
+  height: auto;
+  margin-left: 15%;
+}
+
+@media (max-width: 600px) {
+.main {
+  width: 40%;
+  height: auto;
+  margin-left: 1%;
+  }
+}
+
+@media (max-width: 600px) {
+video {
+  height: 216px;
+  width: 384px;
+  }
+}
+
+a {
+  color: #787878;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .divider {
+    width: 89%;
+  }
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin-top: 1.3%;
+  margin-bottom: auto;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 95%;
+    height: auto;
+    margin-left: center;
+    margin-right: auto;
+    margin-top: 6.3%;
+    margin-bottom: auto;
+  }
+}
