@@ -1,12 +1,29 @@
-body {
-  background-image: url('com.polygauze.animate.palace/assets/gif_polygauze.github.io.gif');
-  background-size: cover; /* This ensures the image covers the entire background */
-  background-repeat: no-repeat; /* This prevents the image from repeating */
-  background-attachment: fixed; /* This makes the background image fixed in place */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire background */
+  z-index: -1; /* Puts the video behind other content */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Ensures your content is above the video */
   color: white;
   font-family: "Playpen Sans", sans-serif;
   font-weight: bold;
   font-size: 22px;
+  text-align: center;
+  padding-top: 20%;
 }
 
 @media (max-width: 600px) {
